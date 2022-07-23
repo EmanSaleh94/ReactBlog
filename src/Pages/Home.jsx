@@ -31,7 +31,7 @@ export default function Home(isAuth) {
                 <div key={post.id} className="post">
                   <div className="postHeader">
                     <div className="title">
-                      <h1>{post.title}</h1>
+                      <p>{post.title}</p>
                     </div>
                     <div className="deletePost">
                       {auth.currentUser &&

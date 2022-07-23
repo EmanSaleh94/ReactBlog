@@ -173,7 +173,7 @@ textarea {
 }
 
 .postHeader .title {
-    flex: 50%;
+    font-size: 1.6rem;
 }
 
 .postHeader .deletePost {
